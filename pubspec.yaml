@@ -1,0 +1,83 @@
+name: chatapp
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  logger: ^2.3.0
+  flutter_svg: ^2.0.10+1
+  flutter_screenutil: ^5.9.0
+  hive: ^2.2.3
+  image_picker: ^1.1.2
+  random_avatar: ^0.0.8
+  google_fonts: 6.1.0
+  cloud_firestore: ^4.17.5
+  firebase_core: ^2.27.0
+  firebase_messaging: ^14.9.4
+  flutter_local_notifications: ^17.1.2
+  flutter_facebook_auth: ^6.2.0
+  badges: ^3.1.2
+  intl:
+  dio: ^5.7.0
+  tab_indicator_styler: ^2.0.0
+  socket_io_client: ^2.0.3+1
+  loading_animation_widget: ^1.2.1
+  onesignal_flutter: ^5.1.2
+  crypto:
+
+  flutter:
+    sdk: flutter
+  firebase_auth: ^4.20.0
+  firebase_storage: ^11.7.7
+  firebase_database: ^10.5.7
+dev_dependencies:
+  flutter_gen_runner:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/
+    - assets/json/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
+
+
+flutter_gen:
+  colors:
+    inputs:
+      - assets/color/colors.xml
